@@ -2,6 +2,7 @@
   "name": "pastebin",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "pnpm@9.0.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,6 +10,8 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@vercel/kv": "^3.0.0",
+    "nanoid": "^5.1.6",
     "next": "16.1.1",
     "react": "19.2.3",
     "react-dom": "19.2.3"
